@@ -69,8 +69,5 @@ waktu--;
 if(waktu < 0) {
     alert('GAME OVER, Try Again')
     window.location.href = "index.html"
-    
-}else{
-    document.getElementById("time_over").innerHTML = waktu;
 }
 }, 1000);
